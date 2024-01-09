@@ -1,0 +1,242 @@
+.container{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+}
+
+.banner{
+  margin-top: 40px;
+}
+
+.banner-img{
+  background-image: url(img/Banner\ Image.png);
+  background: linear-gradient(180deg #070211 0%, rgba(7, 2, 17, 0) 100%);
+  
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 545px;
+  background-repeat: no-repeat;
+}
+
+.banner-img::after{
+  height: 545px;
+  position: absolute;
+  width: 1200px;
+  margin: 42px 0 0 75px;
+  border-radius: 17px;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+
+.banner-content{
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.happyyear{
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.happyparty{
+color: #fff;
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: 95px;
+}
+
+.all-categories{
+  text-align: center;
+}
+
+.party{
+  margin-top: 100px;
+  display: flex;
+}
+
+.party-img{
+  background-image: url(img/Vectorrr.png);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 545px;
+  background-repeat: no-repeat;
+}
+
+.party-content{
+  display: block;
+  color: white;
+  position: absolute;
+  left: 35%;
+  transform: translate(-35%, 50%);
+}
+
+.place-content{
+  margin-top: 100px;
+  padding: 100px 0 100px 0;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  border-radius: 20px;
+}
+
+.mid-img{
+  transform: translate(800px, 60px);
+  display: inline-block;
+}
+
+.join-now{
+ padding: 16px 32px;
+ color: white;
+ border-radius: 8px;
+ background: #F00;
+ border: none;
+}
+
+.best-offer{
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+  display: flex;
+}
+
+.offer-img{
+  justify-content: center;
+  border: 15px solid #F00;
+  border-radius: 50%;
+  padding: 20px;
+  margin: 0 100px 0 100px;
+}
+
+.holiday{
+  margin-top: 100px;
+}
+
+.holiday-content{
+  text-align: center;
+}
+
+.red{
+  display: flex;
+  background-image: url(img/Rectangle\ 2.png);
+  background-repeat: no-repeat;
+  height: 150px;
+  border-radius: 20px 0 20px 20px;
+}
+
+.portfolio{
+  margin-top: 100px;
+}
+
+.grid-1{
+  display: flex;
+}
+
+.grid-2{
+  display: flex;
+}
+
+.boxes{
+  margin: 10px;
+}
+
+.boxes img{
+  max-width: 380px;
+  height: auto; 
+}
+
+.newsletter-content{
+  margin-top: 100px;
+  padding: 100px 0 100px 0;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  border-radius: 20px;
+}
+
+.newsletter-input{
+  margin: 0;
+  padding: 16px 40px;
+  border: none;
+  border-radius: 100px 0 0 100px ;
+}
+
+.newsletter-btn{
+  padding: 16px 40px;
+  border-radius: 0 100px 100px 0;
+  border: none;
+  background-color: #F00;
+  color: white;
+}
+
+footer{
+  width: 90%;
+  height: 450px;
+  background-color: black;
+  color: white;
+  margin-top: 50px;
+  margin-left: 60px;
+
+}
+.foot1{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 200px;
+  padding: 40px;
+
+}
+.horizentalline{
+  width: 70%;
+  height: 30x;
+  border: 0 none;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  background-color: rgb(43, 41, 41);
+
+}
+.icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.icon .icon1{
+  padding: 10px;
+
+}
+.iccon .icon2{
+  padding: 10px;
+}
+.icon .icon3{
+  padding: 10px;
+}
+.horizentalline1{
+  width: 70px;
+  height: 3px;
+  border: 0 none;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  background-color: rgb(43, 41, 41);
+}
+.last1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 120px;
+}
